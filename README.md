@@ -1,3 +1,6 @@
+
+# A nextflow workflow for preprocessing fastq files with fastp
+
 # fastp
 A tool designed to provide fast all-in-one preprocessing for FastQ files. This tool is developed in C++ with multithreading supported to afford high performance.
 https://github.com/OpenGene/fastp.git
