@@ -38,11 +38,12 @@ def helpMessage() {
     Options:
         --inputDir        	Input directory of fastq files.
         --outputDir        	Output folder for fastp output files.
+	--advanceArg            Advance argument for fastp. ie: --umi --umi_loc=read1 --umi_len=8 --trim_poly_g
 
     Profiles:
         standard            local execution
-        ii2                 SLURM execution with singularity on IMPIMBA2
-        azure                 SLURM execution with Docker on AWS
+        slurm               SLURM execution with singularity on HPC
+        azure               batch execution with Docker on Azure
 
     Docker:
     xmzhuo/fastp:0.23.0
