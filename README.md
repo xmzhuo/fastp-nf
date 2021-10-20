@@ -13,7 +13,7 @@ Be sure to run at least Nextflow version 21.04.3.
 Install `singularity` following the instructions at
 https://singularity.lbl.gov/install-linux
 
-### salmon-nf pipeline
+### fastp-nf pipeline
 
 The most convenient way is to install `fastp-nf` is to use `nextflow`'s built-in `pull` command
 ```bash
